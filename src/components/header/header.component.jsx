@@ -4,9 +4,12 @@ import { auth} from "../../firebase/firebase.utils";
 import { connect } from 'react-redux'
 
 import { ReactComponent as Logo } from "../../assets/071 crown.svg";
+import CardIcon  from '../cart-icon/card-icon.component';
+import CartDropdown from '../cart-dropdown/cart-dropdown.component';
+
 import './header.styles.scss';
 
-const Header = ({currentUser}) => (
+const Header = ({currentUser, hidden}) => (
 
     <div className="header">
         <Link className="logo-container" to="/">
@@ -30,15 +33,22 @@ const Header = ({currentUser}) => (
                     </Link>
             }
 
+            <CardIcon/>
 
         </div>
+        {
+            hidden ? null : <CartDropdown/>
+
+        }
+
 
     </div>
 );
 
-const mapStateToProps = (state) =>({
+const mapStateToProps = ({user: {currentUser}, cart: { hidden }}) =>({
 
-    currentUser: state.user.currentUser
+    currentUser,
+    hidden
 
 });
 
