@@ -29,5 +29,15 @@
   .remove-button {
     padding-left: 12px;
     cursor: pointer;
+    width: 5%;
+    height: 10%;
+
+    .remove{
+
+      width: 100%;
+      height: 100%;
+    }
+
+
   }
 }

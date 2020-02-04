@@ -7,7 +7,7 @@ import { createStructuredSelector  } from 'reselect'
 import { selectCartHidden} from "../../redux/cart/cart.selectors";
 import { selectCurrentUser } from "../../redux/user/user.selectors";
 
-import { ReactComponent as Logo } from "../../assets/071 crown.svg";
+import { ReactComponent as Logo } from "../../assets/shopping-logo.svg";
 import CardIcon  from '../cart-icon/card-icon.component';
 import CartDropdown from '../cart-dropdown/cart-dropdown.component';
 
@@ -17,7 +17,7 @@ const Header = ({currentUser, hidden}) => (
 
     <div className="header">
         <Link className="logo-container" to="/">
-            <Logo className="logo" />
+            <Logo  />
         </Link>
 
         <div className="options">
