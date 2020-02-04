@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90271cad-c4b6-426f-9766-ebfff4bc8205" name="Default Changelist" comment="add sign in finished">
-      <change beforePath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart-actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart-actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart-types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/root-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/root-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,11 +39,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/checkout-item/checkout-item.component.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="53" lean-forward="true" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+            <state relative-caret-position="95">
+              <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -54,7 +55,7 @@
         <entry file="file://$PROJECT_DIR$/src/redux/cart/cart-reducer.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="29" column="78" lean-forward="true" selection-start-line="29" selection-start-column="78" selection-end-line="29" selection-end-column="78" />
+              <caret line="29" column="78" selection-start-line="29" selection-start-column="78" selection-end-line="29" selection-end-column="78" />
               <folding>
                 <element signature="e#0#46#0" expanded="true" />
               </folding>
@@ -65,8 +66,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/redux/cart/cart.utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="17" column="31" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="31" />
+            <state relative-caret-position="383">
+              <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/redux/store.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#0#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/redux/root-reducer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -105,7 +139,7 @@
         <entry file="file://$PROJECT_DIR$/src/redux/cart/cart-types.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
-              <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -149,14 +183,11 @@
         <option value="$PROJECT_DIR$/src/components/sign-in/sign-in.component.jsx" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/redux/user/user.reducer.js" />
-        <option value="$PROJECT_DIR$/src/redux/store.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/redux/user/user.action.js" />
         <option value="$PROJECT_DIR$/src/redux/user/user.reducer.jsx" />
         <option value="$PROJECT_DIR$/src/redux/user/user.actions.js" />
         <option value="$PROJECT_DIR$/src/components/cart-icon/card-icon.styles.scss" />
         <option value="$PROJECT_DIR$/src/redux/user/user.types.js" />
-        <option value="$PROJECT_DIR$/src/redux/root-reducer.js" />
         <option value="$PROJECT_DIR$/src/components/custom-button/custom-button.component.jsx" />
         <option value="$PROJECT_DIR$/src/components/custom-button/custom-button.styles.scss" />
         <option value="$PROJECT_DIR$/src/components/collection-item/collection-item.style.scss" />
@@ -178,9 +209,12 @@
         <option value="$PROJECT_DIR$/src/components/checkout-item/checkout-item.styles.scss" />
         <option value="$PROJECT_DIR$/src/redux/cart/cart-types.js" />
         <option value="$PROJECT_DIR$/src/redux/cart/cart-actions.js" />
-        <option value="$PROJECT_DIR$/src/redux/cart/cart.utils.js" />
         <option value="$PROJECT_DIR$/src/redux/cart/cart-reducer.js" />
         <option value="$PROJECT_DIR$/src/components/checkout-item/checkout-item.component.jsx" />
+        <option value="$PROJECT_DIR$/src/redux/cart/cart.utils.js" />
+        <option value="$PROJECT_DIR$/src/redux/store.js" />
+        <option value="$PROJECT_DIR$/src/redux/root-reducer.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
       </list>
     </option>
   </component>
@@ -419,12 +453,12 @@
       <workItem from="1580722235425" duration="7152000" />
       <workItem from="1580732062081" duration="5405000" />
       <workItem from="1580792340929" duration="4608000" />
-      <workItem from="1580807616824" duration="4981000" />
+      <workItem from="1580807616824" duration="7160000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124652000" />
+    <option name="totallyTimeSpent" value="126831000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -446,7 +480,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4988645" weight="0.63175124" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4988645" weight="0.28477904" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5011355" side_tool="true" weight="0.3764321" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3289689" />
@@ -472,14 +506,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="add sign in finished" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/cart-icon/card-icon.styles.scss" />
-    <entry file="file://D:/Course/complete-react-developer-zero-to-mastery/08 Master Project Redux 1/cart-dropdown.styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/redux/user/user.actions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -538,16 +564,6 @@
           <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/root-reducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -767,21 +783,14 @@
     <entry file="file://$PROJECT_DIR$/src/redux/cart/cart-types.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/cart/cart.utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="31" />
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/redux/cart/cart-reducer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="29" column="78" lean-forward="true" selection-start-line="29" selection-start-column="78" selection-end-line="29" selection-end-column="78" />
+          <caret line="29" column="78" selection-start-line="29" selection-start-column="78" selection-end-line="29" selection-end-column="78" />
           <folding>
             <element signature="e#0#46#0" expanded="true" />
           </folding>
@@ -804,11 +813,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/checkout-item/checkout-item.component.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="53" lean-forward="true" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+        <state relative-caret-position="95">
+          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/cart/cart.utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/root-reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
         </state>
       </provider>
     </entry>
